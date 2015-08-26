@@ -9,12 +9,12 @@ class IndexAction extends BaseAction {
         $this->display("/index");
     }
     /**
-     * 生成二维码
+     * 发送邮件
     */
     public function sendEmail(){
-        $companyEmail="****@163.com";
+        $companyEmail="@163.com";
         $password="*****";
-        $companyName="深圳器宇有限公司";
+        $companyName="****有限公司";
         $receiveEmail=I('email');
         $receiveUser=I('user');
         $subject="测试";
