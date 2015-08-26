@@ -1,7 +1,7 @@
 # thinkphpEmail
 
-thinkphp+PHPMailer发邮件
-
+##thinkphp+PHPMailer发邮件
+###使用方法
 1.添加PHPMailer文件夹到Thinkphp/Library/Vendor，PHPMailer这里我只留了三个文件；
 
 2.调用Application/Common/function.php的sendEmail函数
